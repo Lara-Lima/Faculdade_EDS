@@ -1,5 +1,7 @@
 # FusOrienta
 
+![equipe](documentos/equipe-fuso.png "Equipe")
+
 O FusOrienta busca auxiliar viajantes, tanto a trabalho quanto para férias e afins, a cerca da conversão de moeda e status economico
 e orientar os melhores horários de conexões de chamadas entre países tendo em vista os diferentes fusos horários
 
