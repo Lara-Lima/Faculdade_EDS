@@ -1,0 +1,134 @@
+.close-modal {
+  align-self: end;
+}
+
+.content-member {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  gap: 16px;
+}
+
+.profile {
+  gap: 24px;
+  background-color: #fff;
+  box-shadow: 0px 6px 30px rgba(0, 0, 0, 0.08);
+}
+
+.colorBrand {
+  color: #cea11b;
+}
+
+.content-max-height {
+  max-height: 332px;
+  overflow: scroll;
+}
+
+.content-possible-meeting {
+  display: flex;
+  flex-direction: row;
+  gap: 16px;
+}
+
+.content-buttons-modals {
+  display: flex;
+  justify-content: end;
+  gap: 16px;
+}
+
+.times-meetings {
+  display: flex;
+  flex-direction: column;
+  gap: 24px;
+}
+
+.meetingToday {
+  box-shadow: 0px 6px 30px rgba(0, 0, 0, 0.06);
+  padding: 16px;
+}
+
+.container-team {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  gap: 24px;
+  padding: 0 16px;
+}
+
+.container-button {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  justify-content: space-between;
+  gap: 16px;
+}
+
+.search-button {
+  width: 75%;
+}
+
+#buttons-wrapper {
+  display: flex;
+  justify-content: center;
+  gap: 16px;
+}
+
+#team-meetings-list {
+  max-height: 280px;
+  overflow: scroll;
+}
+
+@media only screen and (max-width: 1200px) {
+  .content-member {
+    grid-template-columns: 1fr 1fr;
+  }
+
+  .member {
+    justify-content: space-around;
+  }
+
+  .container-team {
+    grid-template-columns: 1fr 1fr;
+  }
+
+  .search-button {
+    width: 100%;
+  }
+}
+
+@media only screen and (max-width: 991px) {
+  #buttons-wrapper {
+    flex-direction: column;
+  }
+}
+
+@media only screen and (max-width: 768px) {
+  .content-member {
+    grid-template-columns: 1fr;
+  }
+
+  .member {
+    flex-direction: column;
+  }
+
+  .content-possible-meeting {
+    flex-direction: column;
+  }
+
+  .content-buttons-modals {
+    justify-content: center;
+  }
+
+  .container-team {
+    grid-template-columns: 1fr;
+  }
+
+  .container-button {
+    grid-template-columns: 1fr;
+    gap: 16px;
+  }
+}
+
+@media only screen and (max-width: 449px) {
+  .content-buttons-modals {
+    flex-direction: column;
+    justify-content: center;
+  }
+}

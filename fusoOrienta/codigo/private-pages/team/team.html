@@ -1,0 +1,266 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+
+    <!-- Bootstrap CSS -->
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-9ndCyUaIbzAi2FUVXJi0CjmCapSmO7SnpJef0486qhLnuZ2cdeRhO02iuK6FUUVM"
+      crossorigin="anonymous"
+    />
+
+    <link rel="stylesheet" href="../../css/style.css" />
+
+    <link rel="stylesheet" href="./team.css" />
+
+    <link rel="icon" href="../../img/logo.png" type="image/x-icon" />
+
+    <title>Fus0rienta</title>
+  </head>
+
+  <body data-bs-spy="scroll" data-bs-target=".navbar" data-bs-offset="70">
+    <!-- TOP NAV -->
+    <div class="top-nav" id="home">
+      <div class="container">
+        <div class="row justify-content-between">
+          <div class="col-auto">
+            <p><i class="bx bxs-envelope"></i> fusoOrientaOficial@fusoO.com</p>
+            <p><i class="bx bxs-phone-call"></i> (+55) 31 800-120-232</p>
+          </div>
+          <div class="col-auto social-icons">
+            <a href="#"><i class="bi bi-facebook"></i></a>
+            <a href="#"><i class="bi bi-instagram"></i></a>
+            <a href="#"><i class="bi bi-tiktok"></i></a>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- BOTTOM NAV -->
+    <nav class="navbar navbar-expand-lg navbar-light bg-white sticky-top">
+      <div class="container">
+        <img src="../../img/logo.png" alt="" style="width: 4rem" />
+        <button
+          class="navbar-toggler"
+          type="button"
+          data-bs-toggle="collapse"
+          data-bs-target="#navbarNav"
+          aria-controls="navbarNav"
+          aria-expanded="false"
+          aria-label="Toggle navigation"
+        >
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarNav">
+          <ul class="navbar-nav ms-auto">
+            <li class="nav-item">
+              <a class="nav-link" href="../profile/profile.html">Perfil</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#team">Equipes</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="../meeting/meeting.html">Reuniões</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="../people-connections/connections.html"
+                >Conexões</a
+              >
+            </li>
+          </ul>
+          <a href="#" class="btn btn-brand ms-lg-3" id="log-out"
+            >Sair <i class="bi bi-box-arrow-right"></i
+          ></a>
+        </div>
+      </div>
+    </nav>
+
+    <section id="team" class="text-center p-4">
+      <div class="container">
+        <div class="row">
+          <div class="col-12 pb-4">
+            <div class="intro">
+              <h6>Uma equipe unida é capaz de alcançar grandes feitos!</h6>
+              <h1>Suas equipes</h1>
+            </div>
+            <div class="d-flex justify-content-end">
+              <button
+                data-bs-toggle="modal"
+                data-bs-target="#modal-add-team"
+                class="btn btn-brand ms-3 btn-login-home"
+              >
+                Adicionar Equipe
+              </button>
+            </div>
+          </div>
+        </div>
+        <div class="container-team row">
+          <button class="card-team card-team-empty">
+            <i class="bi bi-plus-lg"></i>
+          </button>
+        </div>
+      </div>
+    </section>
+
+    <footer>
+      <div class="footer-top text-center">
+        <div class="container">
+          <div class="row justify-content-center">
+            <div class="col-lg-6 text-center">
+              <p>
+                Acreditamos no potencial das pessoas e estamos comprometidos em
+                oferecer soluções que impulsionam o sucesso dos negócios. Nos
+                siga em nossas redes sociais!
+              </p>
+              <div class="col-auto social-icons">
+                <a href="#"><i class="bi bi-facebook"></i></a>
+                <a href="#"><i class="bi bi-instagram"></i></a>
+                <a href="#"><i class="bi bi-tiktok"></i></a>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="footer-bottom text-center">
+        <p class="mb-0">Copyright@2023. Todos os direitos reservados</p>
+      </div>
+    </footer>
+
+    <!-- Modal -->
+    <div
+      class="modal fade"
+      id="modal-add-team"
+      tabindex="-1"
+      aria-labelledby="exampleModalLabel"
+      aria-hidden="true"
+    >
+      <div class="modal-dialog modal-dialog-centered modal-xl">
+        <div class="modal-content">
+          <div class="modal-header">
+            <h1 class="modal-title">Adicionar Equipe</h1>
+            <button
+              type="button"
+              class="btn-close"
+              data-bs-dismiss="modal"
+              aria-label="Close"
+            ></button>
+          </div>
+          <div class="modal-body p-0">
+            <div class="container-fluid">
+              <form id="form-add-team" class="p-lg-5 row">
+                <div class="col-6">
+                  <label for="userName" class="form-label"
+                    >Nome da Equipe</label
+                  >
+                  <input
+                    type="text"
+                    class="form-control"
+                    placeholder="Nome da Equipe"
+                    id="name-team"
+                    name="team-name"
+                    aria-describedby="nameTeam"
+                  />
+                </div>
+
+                <div class="col-6">
+                  <label for="exampleColorInput" class="form-label"
+                    >Escolha uma cor para a equipe:</label
+                  >
+                  <input
+                    type="color"
+                    class="form-control form-control-color"
+                    id="exampleColorInput"
+                    value="#563d7c"
+                    title="Choose your color"
+                    name="team-color"
+                  />
+                </div>
+
+                <div class="col-12 pt-4">
+                  <label for="password" class="form-label">Descrição</label>
+                  <input
+                    type="text"
+                    class="form-control"
+                    placeholder="Escreva sobre os objetivos da Equipe"
+                    id="team-description"
+                    name="team-description"
+                    aria-describedby="descriptionTeam"
+                  />
+                </div>
+
+                <div
+                  class="col-12 d-flex justify-content-between align-items-end pt-4"
+                >
+                  <button class="btn btn-brand" type="submit">Cancelar</button>
+                  <button class="btn btn-brand" type="submit">Adicionar</button>
+                </div>
+              </form>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <div
+      class="modal fade"
+      id="modal-delete-team"
+      tabindex="-1"
+      aria-labelledby="exampleModalLabel"
+      aria-hidden="true"
+    >
+      <div class="modal-dialog modal-dialog-scrollable">
+        <div class="modal-content">
+          <div class="modal-header">
+            <h1 class="modal-title">Excluir equipe</h1>
+            <button
+              type="button"
+              class="btn-close"
+              data-bs-dismiss="modal"
+              aria-label="Close"
+            ></button>
+          </div>
+          <div class="modal-body meeting">
+            <h3><strong class="user-nome"></strong></h3>
+            <p>
+              Você tem certeza que deseja excluir a equipe
+              <strong class="team-name"></strong> ?
+            </p>
+          </div>
+          <div
+            class="col-12 d-flex justify-content-between align-items-end p-4"
+          >
+            <button
+              type="button"
+              class="btn btn-outline-primary close-modal-delete"
+            >
+              Cancelar
+            </button>
+            <button
+              type="button"
+              class="btn btn-brand delete-team btn-delete-team"
+            >
+              Excluir
+            </button>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-geWF76RCwLtnZ8qwWowPQNguL3RmwHVBC9FhGdlKrxdiJJigb/j/68SIy3Te4Bkz"
+      crossorigin="anonymous"
+    ></script>
+
+    <script src="./team.js" type="module"></script>
+
+    <script src="./add-team.js" type="module"></script>
+  </body>
+</html>
+
+<!-- to do: adicionar equipe e colocar lista de participante para adicionar na equipe:, colocar funcao para o butao cancelar  -->
+<!-- filtro da equipe -->

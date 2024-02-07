@@ -1,0 +1,38 @@
+# YAML 1.2
+---
+authors: 
+  - family-names: Parreiras Guimarães da Cunha
+    given-names: Juliana
+  - family-names: Lima Pereira
+    given-names: Lara
+  - family-names: Marques de Oliveira
+    given-names: Pedro Henrique 
+  - family-names: Garcia Ribas
+    given-names: Rodrigo 
+  - family-names: Ribeiro de Brito
+    given-names: Victhor Sebastian 
+    
+  - name-suffix: Professor
+    affiliation: PUC Minas
+    family-names: Da Costa Silva
+    given-names: Luiz Henrique
+  - name-suffix: Professor
+    affiliation: PUC Minas
+    family-names: Pires Xavier Junior
+    given-names: Jose Laerte
+cff-version: "1.1.0"
+keywords: 
+  - "Modelagem de Processos de Negócios"
+  - "Programação Modular"
+  - "Banco de Dados"
+  - "Desenvolvimento Web"
+message: |
+    "If you use this software, please cite it using these metadata.
+    Se você utilizar este software, por favor cite-o utilizando estes metadados."
+repository-code: "https://github.com/url do projeto"
+title: "Javali"
+abstract: |
+    "
+ O Javali representa uma plataforma dedicada a aprimorar a experiência de viagens, simplificando os processos de anúncio, reserva de hospedagens e participação em experiências.
+    "
+...

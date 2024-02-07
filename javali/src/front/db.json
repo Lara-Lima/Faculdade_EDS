@@ -1,0 +1,1456 @@
+{
+  "users": [
+    {
+      "id": 1,
+      "nome": "Lara Lima",
+      "dataNascimento": "2023-10-22T15:30:45.000Z",
+      "cpf": "111.111.111-11",
+      "email": "laralima@gmail.com",
+      "password": "123",
+      "ativo": true,
+      "telefone": "3133771212",
+      "endereco": {
+        "rua": "Rua lara teste",
+        "numero": "123",
+        "bairro": "bairro Lara Teste",
+        "cidade": "Cidade  Lara teste",
+        "estado": "MG"
+      }
+    },
+    {
+      "ativo": true,
+      "nome": "Juliana Alves",
+      "dataNascimento": "2023-10-03T20:44:30.132Z",
+      "endereco": {
+        "rua": "rua da ju",
+        "numero": "12",
+        "bairro": "bairooo da ju",
+        "cidade": "cidade da ju",
+        "estado": "MG"
+      },
+      "telefone": "12314",
+      "password": "123",
+      "confirmPassword": "123",
+      "email": "ju@teste.com",
+      "cpf": "222.222.222-22",
+      "id": 2
+    },
+    {
+      "nome": "Rodrigo Ribas",
+      "dataNascimento": "2023-10-15T03:00:00.000Z",
+      "endereco": {
+        "rua": "rua testes Rodrigo",
+        "numero": "123",
+        "bairro": "bairro Rodrigo",
+        "cidade": "belo horizonte Rodrigo",
+        "estado": "MG"
+      },
+      "telefone": "12342356",
+      "password": "12",
+      "confirmPassword": "12",
+      "email": "rodrigo@gmail.com",
+      "cpf": "333.333.333-33",
+      "id": 3
+    },
+    {
+      "nome": "Victhor Sebastian",
+      "dataNascimento": "2012-10-01T03:00:00.000Z",
+      "endereco": {
+        "rua": "ruaaa do S",
+        "numero": "123",
+        "bairro": "bairroo do S",
+        "cidade": "cidade do S",
+        "estado": "SP"
+      },
+      "telefone": "3456789",
+      "password": "12",
+      "confirmPassword": "12",
+      "email": "victhor@gmail.com",
+      "cpf": "444.444.444-44",
+      "id": 4
+    },
+    {
+      "nome": "Pedro Marques",
+      "dataNascimento": "2023-10-01T03:00:00.000Z",
+      "endereco": {
+        "rua": "rua do Pedro",
+        "numero": "123",
+        "bairro": "bairro Pedro",
+        "cidade": "cidade Pedro",
+        "estado": "BA"
+      },
+      "telefone": "319887234",
+      "password": "123",
+      "confirmPassword": "123",
+      "email": "pedro@gmail.com",
+      "cpf": "555.555.555-55",
+      "id": 5,
+      "ativo": false
+    },
+    {
+      "nome": "Bruna",
+      "dataNascimento": "2023-10-04T03:00:00.000Z",
+      "endereco": {
+        "rua": "wdefg",
+        "numero": "1",
+        "bairro": "sfdv",
+        "cidade": "adfsg",
+        "estado": "awdfsg"
+      },
+      "telefone": "31344567",
+      "password": "123",
+      "confirmPassword": "123",
+      "email": "test@teste.com",
+      "cpf": "111.111.222.33",
+      "id": 6
+    }
+  ],
+  "minhasCompras": {
+    "experiencias": [
+      {
+        "id": "d2610ff8-e130-4aa7-94bb-ddc840e8a571",
+        "codCliente": "1",
+        "experiencia": {
+          "titulo": "experiencia maravilhosa RJ",
+          "id": "31",
+          "descricao": "2b",
+          "imagem": "1a",
+          "valorCompra": 123.45,
+          "idProprietario": "112",
+          "dataDeInicio": "Sat Oct 22 15:30:45 UTC 2023",
+          "dataDeFim": "Sat Oct 22 15:30:45 UTC 2023",
+          "endereco": {
+            "rua": "Rua teste",
+            "numero": "123",
+            "bairro": "bairro Teste",
+            "cidade": "Cidade teste"
+          },
+          "avaliacao": [
+            {
+              "nota": 5,
+              "nomeUsuario": "Eduarda",
+              "feedBack": "Melhor hospedagem que já fiquei!"
+            },
+            {
+              "nota": 3,
+              "nomeUsuario": "Carlos",
+              "feedBack": "Recomendo a todos."
+            }
+          ]
+        }
+      },
+      {
+        "id": "021608ba-ce84-4b3d-9e89-fc31e54dce27",
+        "codCliente": "1",
+        "experiencia": {
+          "titulo": "Linda casa",
+          "id": "31",
+          "descricao": "2b",
+          "imagem": "1a",
+          "valorCompra": 123.45,
+          "idProprietario": "112",
+          "dataDeInicio": "Sat Oct 22 15:30:45 UTC 2023",
+          "dataDeFim": "Sat Oct 22 15:30:45 UTC 2023",
+          "endereco": {
+            "rua": "Rua teste",
+            "numero": "123",
+            "bairro": "bairro Teste",
+            "cidade": "Cidade teste"
+          },
+          "avaliacao": [
+            {
+              "nota": 1,
+              "nomeUsuario": "Eduarda",
+              "feedBack": "Melhor hospedagem que já fiquei!"
+            },
+            {
+              "nota": 1,
+              "nomeUsuario": "Carlos",
+              "feedBack": "Recomendo a todos."
+            },
+            {
+              "feedBack": "drtg",
+              "nomeUsuario": "TesteNome TesteSobrenome",
+              "nota": 3
+            }
+          ]
+        }
+      },
+      {
+        "id": "cb355811-7632-45b5-87f2-a29b93af4b94",
+        "codCliente": "1",
+        "experiencia": {
+          "titulo": "texte experiencia 2",
+          "id": "21",
+          "descricao": "2b",
+          "imagem": "1a",
+          "valorCompra": 123.45,
+          "idProprietario": "1",
+          "dataDeInicio": "Sat Oct 22 15:30:45 UTC 2023",
+          "dataDeFim": "Sat Oct 22 15:30:45 UTC 2023",
+          "endereco": {
+            "rua": "Rua teste",
+            "numero": "123",
+            "bairro": "bairro Teste",
+            "cidade": "Cidade teste"
+          },
+          "avaliacao": [
+            {
+              "nota": 1,
+              "nomeUsuario": "Eduarda",
+              "feedBack": "Melhor hospedagem que já fiquei!"
+            },
+            {
+              "nota": 3,
+              "nomeUsuario": "Carlos",
+              "feedBack": "Recomendo a todos."
+            }
+          ]
+        }
+      },
+      {
+        "id": "87007eb2-5ea3-48bb-b47e-d22aaef84221",
+        "codCliente": "1",
+        "experiencia": {
+          "titulo": "teste experiencia 1",
+          "id": "31",
+          "descricao": "2b",
+          "imagem": "1a",
+          "valorCompra": 123.45,
+          "idProprietario": "112",
+          "dataDeInicio": "Sat Oct 22 15:30:45 UTC 2023",
+          "dataDeFim": "Sat Oct 22 15:30:45 UTC 2023",
+          "endereco": {
+            "rua": "Rua teste",
+            "numero": "123",
+            "bairro": "bairro Teste",
+            "cidade": "Cidade teste"
+          },
+          "avaliacao": [
+            {
+              "nota": 1,
+              "nomeUsuario": "Eduarda",
+              "feedBack": "Melhor hospedagem que já fiquei!"
+            },
+            {
+              "nota": 1,
+              "nomeUsuario": "Carlos",
+              "feedBack": "Recomendo a todos."
+            },
+            {
+              "feedBack": "drtg",
+              "nomeUsuario": "TesteNome TesteSobrenome",
+              "nota": 3
+            }
+          ]
+        }
+      },
+      {
+        "id": "9bd170df-effe-4bf8-8378-0f86e0a1325b",
+        "codCliente": "1",
+        "experiencia": {
+          "titulo": "teste experiencia 1",
+          "id": "31",
+          "descricao": "2b",
+          "imagem": "1a",
+          "valorCompra": 123.45,
+          "idProprietario": "112",
+          "dataDeInicio": "Sat Oct 22 15:30:45 UTC 2023",
+          "dataDeFim": "Sat Oct 22 15:30:45 UTC 2023",
+          "endereco": {
+            "rua": "Rua teste",
+            "numero": "123",
+            "bairro": "bairro Teste",
+            "cidade": "Cidade teste"
+          },
+          "avaliacao": [
+            {
+              "nota": 1,
+              "nomeUsuario": "Eduarda",
+              "feedBack": "Melhor hospedagem que já fiquei!"
+            },
+            {
+              "nota": 1,
+              "nomeUsuario": "Carlos",
+              "feedBack": "Recomendo a todos."
+            },
+            {
+              "feedBack": "drtg",
+              "nomeUsuario": "TesteNome TesteSobrenome",
+              "nota": 3
+            }
+          ]
+        }
+      },
+      {
+        "id": "5caae497-08f7-40be-9d8a-ded46266868c",
+        "codCliente": "1",
+        "experiencia": {
+          "titulo": "texte experiencia 2",
+          "id": "21",
+          "descricao": "2b",
+          "imagem": "1a",
+          "valorCompra": 123.45,
+          "idProprietario": "1",
+          "dataDeInicio": "Sat Oct 22 15:30:45 UTC 2023",
+          "dataDeFim": "Sat Oct 22 15:30:45 UTC 2023",
+          "endereco": {
+            "rua": "Rua teste",
+            "numero": "123",
+            "bairro": "bairro Teste",
+            "cidade": "Cidade teste"
+          },
+          "avaliacao": [
+            {
+              "nota": 1,
+              "nomeUsuario": "Eduarda",
+              "feedBack": "Melhor hospedagem que já fiquei!"
+            },
+            {
+              "nota": 3,
+              "nomeUsuario": "Carlos",
+              "feedBack": "Recomendo a todos."
+            }
+          ]
+        }
+      },
+      {
+        "id": "98683a5b-1ab8-486e-951e-ce2d77d48c16",
+        "codCliente": "1",
+        "experiencia": {
+          "titulo": "teste experiencia 1",
+          "id": "31",
+          "descricao": "2b",
+          "imagem": "1a",
+          "valorCompra": 123.45,
+          "idProprietario": "112",
+          "dataDeInicio": "Sat Oct 22 15:30:45 UTC 2023",
+          "dataDeFim": "Sat Oct 22 15:30:45 UTC 2023",
+          "endereco": {
+            "rua": "Rua teste",
+            "numero": "123",
+            "bairro": "bairro Teste",
+            "cidade": "Cidade teste"
+          },
+          "avaliacao": [
+            {
+              "nota": 1,
+              "nomeUsuario": "Eduarda",
+              "feedBack": "Melhor hospedagem que já fiquei!"
+            },
+            {
+              "nota": 1,
+              "nomeUsuario": "Carlos",
+              "feedBack": "Recomendo a todos."
+            },
+            {
+              "feedBack": "drtg",
+              "nomeUsuario": "TesteNome TesteSobrenome",
+              "nota": 3
+            }
+          ]
+        }
+      },
+      {
+        "id": "61d4351c-98ee-48c6-83d6-548fa7fa73ba",
+        "codCliente": "1",
+        "experiencia": {
+          "titulo": "texte experiencia 2",
+          "id": "21",
+          "descricao": "2b",
+          "imagem": "1a",
+          "valorCompra": 123.45,
+          "idProprietario": "1",
+          "dataDeInicio": "Sat Oct 22 15:30:45 UTC 2023",
+          "dataDeFim": "Sat Oct 22 15:30:45 UTC 2023",
+          "endereco": {
+            "rua": "Rua teste",
+            "numero": "123",
+            "bairro": "bairro Teste",
+            "cidade": "Cidade teste"
+          },
+          "avaliacao": [
+            {
+              "nota": 1,
+              "nomeUsuario": "Eduarda",
+              "feedBack": "Melhor hospedagem que já fiquei!"
+            },
+            {
+              "nota": 3,
+              "nomeUsuario": "Carlos",
+              "feedBack": "Recomendo a todos."
+            }
+          ]
+        }
+      },
+      {
+        "id": "0a96a454-cf61-4ea0-b5f5-e188efbe3ec7",
+        "codCliente": "1",
+        "experiencia": {
+          "titulo": "teste experiencia 1",
+          "id": "31",
+          "descricao": "2b",
+          "imagem": "1a",
+          "valorCompra": 123.45,
+          "idProprietario": "112",
+          "dataDeInicio": "Sat Oct 22 15:30:45 UTC 2023",
+          "dataDeFim": "Sat Oct 22 15:30:45 UTC 2023",
+          "endereco": {
+            "rua": "Rua teste",
+            "numero": "123",
+            "bairro": "bairro Teste",
+            "cidade": "Cidade teste"
+          },
+          "avaliacao": [
+            {
+              "nota": 1,
+              "nomeUsuario": "Eduarda",
+              "feedBack": "Melhor hospedagem que já fiquei!"
+            },
+            {
+              "nota": 1,
+              "nomeUsuario": "Carlos",
+              "feedBack": "Recomendo a todos."
+            },
+            {
+              "feedBack": "drtg",
+              "nomeUsuario": "TesteNome TesteSobrenome",
+              "nota": 3
+            }
+          ]
+        }
+      },
+      {
+        "id": "4f3cfa1c-549d-4827-84b4-953520ac1396",
+        "codCliente": "1",
+        "experiencia": {
+          "titulo": "texte experiencia 2",
+          "id": "21",
+          "descricao": "2b",
+          "imagem": "1a",
+          "valorCompra": 123.45,
+          "idProprietario": "1",
+          "dataDeInicio": "Sat Oct 22 15:30:45 UTC 2023",
+          "dataDeFim": "Sat Oct 22 15:30:45 UTC 2023",
+          "endereco": {
+            "rua": "Rua teste",
+            "numero": "123",
+            "bairro": "bairro Teste",
+            "cidade": "Cidade teste"
+          },
+          "avaliacao": [
+            {
+              "nota": 1,
+              "nomeUsuario": "Eduarda",
+              "feedBack": "Melhor hospedagem que já fiquei!"
+            },
+            {
+              "nota": 3,
+              "nomeUsuario": "Carlos",
+              "feedBack": "Recomendo a todos."
+            }
+          ]
+        }
+      },
+      {
+        "id": "5017c69d-2b61-4ff3-b6e3-3fea527132ae",
+        "codCliente": "1",
+        "experiencia": {
+          "titulo": "teste experiencia 1",
+          "id": "31",
+          "descricao": "2b",
+          "imagem": "1a",
+          "valorCompra": 123.45,
+          "idProprietario": "112",
+          "dataDeInicio": "Sat Oct 22 15:30:45 UTC 2023",
+          "dataDeFim": "Sat Oct 22 15:30:45 UTC 2023",
+          "endereco": {
+            "rua": "Rua teste",
+            "numero": "123",
+            "bairro": "bairro Teste",
+            "cidade": "Cidade teste"
+          },
+          "avaliacao": [
+            {
+              "nota": 1,
+              "nomeUsuario": "Eduarda",
+              "feedBack": "Melhor hospedagem que já fiquei!"
+            },
+            {
+              "nota": 1,
+              "nomeUsuario": "Carlos",
+              "feedBack": "Recomendo a todos."
+            },
+            {
+              "feedBack": "drtg",
+              "nomeUsuario": "TesteNome TesteSobrenome",
+              "nota": 3
+            }
+          ]
+        }
+      },
+      {
+        "id": "85ecf6f3-c5e5-42bb-86b5-6e19e2bdb3de",
+        "codCliente": "1",
+        "experiencia": {
+          "titulo": "texte experiencia 2",
+          "id": "21",
+          "descricao": "2b",
+          "imagem": "1a",
+          "valorCompra": 123.45,
+          "idProprietario": "1",
+          "dataDeInicio": "Sat Oct 22 15:30:45 UTC 2023",
+          "dataDeFim": "Sat Oct 22 15:30:45 UTC 2023",
+          "endereco": {
+            "rua": "Rua teste",
+            "numero": "123",
+            "bairro": "bairro Teste",
+            "cidade": "Cidade teste"
+          },
+          "avaliacao": [
+            {
+              "nota": 1,
+              "nomeUsuario": "Eduarda",
+              "feedBack": "Melhor hospedagem que já fiquei!"
+            },
+            {
+              "nota": 3,
+              "nomeUsuario": "Carlos",
+              "feedBack": "Recomendo a todos."
+            }
+          ]
+        }
+      },
+      {
+        "id": "dc773cc2-8a0a-40d3-bec6-c574ebc75556",
+        "codCliente": "1",
+        "experiencia": {
+          "titulo": "teste experiencia 1",
+          "id": "31",
+          "descricao": "2b",
+          "imagem": "1a",
+          "valorCompra": 123.45,
+          "idProprietario": "112",
+          "dataDeInicio": "Sat Oct 22 15:30:45 UTC 2023",
+          "dataDeFim": "Sat Oct 22 15:30:45 UTC 2023",
+          "endereco": {
+            "rua": "Rua teste",
+            "numero": "123",
+            "bairro": "bairro Teste",
+            "cidade": "Cidade teste"
+          },
+          "avaliacao": [
+            {
+              "nota": 1,
+              "nomeUsuario": "Eduarda",
+              "feedBack": "Melhor hospedagem que já fiquei!"
+            },
+            {
+              "nota": 1,
+              "nomeUsuario": "Carlos",
+              "feedBack": "Recomendo a todos."
+            },
+            {
+              "feedBack": "drtg",
+              "nomeUsuario": "TesteNome TesteSobrenome",
+              "nota": 3
+            }
+          ]
+        }
+      },
+      {
+        "id": "d124a4ed-fd22-4534-8182-a53b6cecb4ba",
+        "codCliente": "1",
+        "experiencia": {
+          "titulo": "teste experiencia 1",
+          "id": "31",
+          "descricao": "2b",
+          "imagem": "1a",
+          "valorCompra": 123.45,
+          "idProprietario": "112",
+          "dataDeInicio": "Sat Oct 22 15:30:45 UTC 2023",
+          "dataDeFim": "Sat Oct 22 15:30:45 UTC 2023",
+          "endereco": {
+            "rua": "Rua teste",
+            "numero": "123",
+            "bairro": "bairro Teste",
+            "cidade": "Cidade teste"
+          },
+          "avaliacao": [
+            {
+              "nota": 1,
+              "nomeUsuario": "Eduarda",
+              "feedBack": "Melhor hospedagem que já fiquei!"
+            },
+            {
+              "nota": 1,
+              "nomeUsuario": "Carlos",
+              "feedBack": "Recomendo a todos."
+            },
+            {
+              "feedBack": "drtg",
+              "nomeUsuario": "TesteNome TesteSobrenome",
+              "nota": 3
+            }
+          ]
+        }
+      },
+      {
+        "id": "10540ae7-f5b2-4039-b822-7562757f30ff",
+        "codCliente": "1",
+        "experiencia": {
+          "titulo": "texte experiencia 2",
+          "id": "21",
+          "descricao": "2b",
+          "imagem": "1a",
+          "valorCompra": 123.45,
+          "idProprietario": "1",
+          "dataDeInicio": "Sat Oct 22 15:30:45 UTC 2023",
+          "dataDeFim": "Sat Oct 22 15:30:45 UTC 2023",
+          "endereco": {
+            "rua": "Rua teste",
+            "numero": "123",
+            "bairro": "bairro Teste",
+            "cidade": "Cidade teste"
+          },
+          "avaliacao": [
+            {
+              "nota": 1,
+              "nomeUsuario": "Eduarda",
+              "feedBack": "Melhor hospedagem que já fiquei!"
+            },
+            {
+              "nota": 3,
+              "nomeUsuario": "Carlos",
+              "feedBack": "Recomendo a todos."
+            }
+          ]
+        }
+      },
+      {
+        "id": "9e7db868-d641-483c-9002-fef4da2ce842",
+        "codCliente": "1",
+        "experiencia": {
+          "titulo": "teste experiencia 1",
+          "id": "31",
+          "descricao": "2b",
+          "imagem": "1a",
+          "valorCompra": 123.45,
+          "idProprietario": "112",
+          "dataDeInicio": "Sat Oct 22 15:30:45 UTC 2023",
+          "dataDeFim": "Sat Oct 22 15:30:45 UTC 2023",
+          "endereco": {
+            "rua": "Rua teste",
+            "numero": "123",
+            "bairro": "bairro Teste",
+            "cidade": "Cidade teste"
+          },
+          "avaliacao": [
+            {
+              "nota": 1,
+              "nomeUsuario": "Eduarda",
+              "feedBack": "Melhor hospedagem que já fiquei!"
+            },
+            {
+              "nota": 1,
+              "nomeUsuario": "Carlos",
+              "feedBack": "Recomendo a todos."
+            },
+            {
+              "feedBack": "drtg",
+              "nomeUsuario": "TesteNome TesteSobrenome",
+              "nota": 3
+            }
+          ]
+        }
+      },
+      {
+        "id": "62231375-3bf6-45e7-acd9-6618ef1d97f2",
+        "codCliente": "1",
+        "experiencia": {
+          "titulo": "texte experiencia 2",
+          "id": "21",
+          "descricao": "2b",
+          "imagem": "1a",
+          "valorCompra": 123.45,
+          "idProprietario": "1",
+          "dataDeInicio": "Sat Oct 22 15:30:45 UTC 2023",
+          "dataDeFim": "Sat Oct 22 15:30:45 UTC 2023",
+          "endereco": {
+            "rua": "Rua teste",
+            "numero": "123",
+            "bairro": "bairro Teste",
+            "cidade": "Cidade teste"
+          },
+          "avaliacao": [
+            {
+              "nota": 1,
+              "nomeUsuario": "Eduarda",
+              "feedBack": "Melhor hospedagem que já fiquei!"
+            },
+            {
+              "nota": 3,
+              "nomeUsuario": "Carlos",
+              "feedBack": "Recomendo a todos."
+            }
+          ]
+        }
+      },
+      {
+        "id": "9a32e25f-f4e4-413b-b6e7-c736c9cf56a0",
+        "codCliente": "1",
+        "experiencia": {
+          "titulo": "teste experiencia 1",
+          "id": "31",
+          "descricao": "2b",
+          "imagem": "1a",
+          "valorCompra": 123.45,
+          "idProprietario": "112",
+          "dataDeInicio": "Sat Oct 22 15:30:45 UTC 2023",
+          "dataDeFim": "Sat Oct 22 15:30:45 UTC 2023",
+          "endereco": {
+            "rua": "Rua teste",
+            "numero": "123",
+            "bairro": "bairro Teste",
+            "cidade": "Cidade teste"
+          },
+          "avaliacao": [
+            {
+              "nota": 1,
+              "nomeUsuario": "Eduarda",
+              "feedBack": "Melhor hospedagem que já fiquei!"
+            },
+            {
+              "nota": 1,
+              "nomeUsuario": "Carlos",
+              "feedBack": "Recomendo a todos."
+            },
+            {
+              "feedBack": "drtg",
+              "nomeUsuario": "TesteNome TesteSobrenome",
+              "nota": 3
+            }
+          ]
+        }
+      },
+      {
+        "id": "5a0cad5f-254c-487f-9215-639725495caf",
+        "codCliente": "1",
+        "experiencia": {
+          "titulo": "texte experiencia 2",
+          "id": "21",
+          "descricao": "2b",
+          "imagem": "1a",
+          "valorCompra": 123.45,
+          "idProprietario": "1",
+          "dataDeInicio": "Sat Oct 22 15:30:45 UTC 2023",
+          "dataDeFim": "Sat Oct 22 15:30:45 UTC 2023",
+          "endereco": {
+            "rua": "Rua teste",
+            "numero": "123",
+            "bairro": "bairro Teste",
+            "cidade": "Cidade teste"
+          },
+          "avaliacao": [
+            {
+              "nota": 1,
+              "nomeUsuario": "Eduarda",
+              "feedBack": "Melhor hospedagem que já fiquei!"
+            },
+            {
+              "nota": 3,
+              "nomeUsuario": "Carlos",
+              "feedBack": "Recomendo a todos."
+            }
+          ]
+        }
+      },
+      {
+        "id": "03575906-23a1-4a0c-b29e-9f041bf17eca",
+        "codCliente": "1",
+        "experiencia": {
+          "titulo": "texte experiencia 2",
+          "id": "21",
+          "descricao": "2b",
+          "imagem": "1a",
+          "valorCompra": 123.45,
+          "idProprietario": "1",
+          "dataDeInicio": "Sat Oct 22 15:30:45 UTC 2023",
+          "dataDeFim": "Sat Oct 22 15:30:45 UTC 2023",
+          "endereco": {
+            "rua": "Rua teste",
+            "numero": "123",
+            "bairro": "bairro Teste",
+            "cidade": "Cidade teste"
+          },
+          "avaliacao": [
+            {
+              "nota": 1,
+              "nomeUsuario": "Eduarda",
+              "feedBack": "Melhor hospedagem que já fiquei!"
+            },
+            {
+              "nota": 3,
+              "nomeUsuario": "Carlos",
+              "feedBack": "Recomendo a todos."
+            }
+          ]
+        }
+      },
+      {
+        "id": "fd483aa1-00a8-41de-970c-ff98d2481d62",
+        "codCliente": "1",
+        "experiencia": {
+          "titulo": "teste experiencia 1",
+          "id": "31",
+          "descricao": "2b",
+          "imagem": "1a",
+          "valorCompra": 123.45,
+          "idProprietario": "112",
+          "dataDeInicio": "Sat Oct 22 15:30:45 UTC 2023",
+          "dataDeFim": "Sat Oct 22 15:30:45 UTC 2023",
+          "endereco": {
+            "rua": "Rua teste",
+            "numero": "123",
+            "bairro": "bairro Teste",
+            "cidade": "Cidade teste"
+          },
+          "avaliacao": [
+            {
+              "nota": 1,
+              "nomeUsuario": "Eduarda",
+              "feedBack": "Melhor hospedagem que já fiquei!"
+            },
+            {
+              "nota": 1,
+              "nomeUsuario": "Carlos",
+              "feedBack": "Recomendo a todos."
+            },
+            {
+              "feedBack": "drtg",
+              "nomeUsuario": "TesteNome TesteSobrenome",
+              "nota": 3
+            }
+          ]
+        }
+      },
+      {
+        "id": "61b78a77-d98d-471a-ac37-3c50aee55b15",
+        "codCliente": "1",
+        "experiencia": {
+          "titulo": "texte experiencia 2",
+          "id": "21",
+          "descricao": "2b",
+          "imagem": "1a",
+          "valorCompra": 123.45,
+          "idProprietario": "1",
+          "dataDeInicio": "Sat Oct 22 15:30:45 UTC 2023",
+          "dataDeFim": "Sat Oct 22 15:30:45 UTC 2023",
+          "endereco": {
+            "rua": "Rua teste",
+            "numero": "123",
+            "bairro": "bairro Teste",
+            "cidade": "Cidade teste"
+          },
+          "avaliacao": [
+            {
+              "nota": 1,
+              "nomeUsuario": "Eduarda",
+              "feedBack": "Melhor hospedagem que já fiquei!"
+            },
+            {
+              "nota": 3,
+              "nomeUsuario": "Carlos",
+              "feedBack": "Recomendo a todos."
+            }
+          ]
+        }
+      },
+      {
+        "id": "7c76a9e9-ed51-4812-99d6-e110b463b13c",
+        "codCliente": "1",
+        "experiencia": {
+          "titulo": "teste experiencia 1",
+          "id": "31",
+          "descricao": "2b",
+          "imagem": "1a",
+          "valorCompra": 123.45,
+          "idProprietario": "112",
+          "dataDeInicio": "Sat Oct 22 15:30:45 UTC 2023",
+          "dataDeFim": "Sat Oct 22 15:30:45 UTC 2023",
+          "endereco": {
+            "rua": "Rua teste",
+            "numero": "123",
+            "bairro": "bairro Teste",
+            "cidade": "Cidade teste"
+          },
+          "avaliacao": [
+            {
+              "nota": 1,
+              "nomeUsuario": "Eduarda",
+              "feedBack": "Melhor hospedagem que já fiquei!"
+            },
+            {
+              "nota": 1,
+              "nomeUsuario": "Carlos",
+              "feedBack": "Recomendo a todos."
+            },
+            {
+              "feedBack": "",
+              "nomeUsuario": "TesteNome TesteSobrenome",
+              "nota": 5
+            }
+          ]
+        }
+      },
+      {
+        "id": "40862e7c-dcdb-44e0-b6c0-6261638efb0b",
+        "codCliente": "1",
+        "experiencia": {
+          "titulo": "texte experiencia 2 linda",
+          "id": "21",
+          "descricao": "2b",
+          "imagem": "1a",
+          "valorCompra": 123.45,
+          "idProprietario": "1",
+          "dataDeInicio": "Sat Oct 22 15:30:45 UTC 2023",
+          "dataDeFim": "Sat Oct 22 15:30:45 UTC 2023",
+          "endereco": {
+            "rua": "Rua teste experiencia linda",
+            "numero": "123",
+            "bairro": "bairro Teste",
+            "cidade": "Cidade teste"
+          },
+          "avaliacao": [
+            {
+              "nota": 1,
+              "nomeUsuario": "Eduarda",
+              "feedBack": "Melhor hospedagem que já fiquei!"
+            },
+            {
+              "nota": 3,
+              "nomeUsuario": "Carlos",
+              "feedBack": "Recomendo a todos."
+            }
+          ],
+          "checkin": null,
+          "checkout": null
+        }
+      },
+      {
+        "id": "413a03a8-8bc5-4068-985a-878292e275c7",
+        "codCliente": "4",
+        "experiencia": {
+          "titulo": "teste experiencia 1",
+          "id": "31",
+          "descricao": "2b",
+          "imagem": "1a",
+          "valorCompra": 123.45,
+          "idProprietario": "112",
+          "dataDeInicio": "Sat Oct 22 15:30:45 UTC 2023",
+          "dataDeFim": "Sat Oct 22 15:30:45 UTC 2023",
+          "endereco": {
+            "rua": "Rua teste",
+            "numero": "123",
+            "bairro": "bairro Teste",
+            "cidade": "Cidade teste"
+          },
+          "avaliacao": [
+            {
+              "nota": 1,
+              "nomeUsuario": "Eduarda",
+              "feedBack": "Melhor hospedagem que já fiquei!"
+            },
+            {
+              "nota": 1,
+              "nomeUsuario": "Carlos",
+              "feedBack": "Recomendo a todos."
+            },
+            {
+              "feedBack": "",
+              "nomeUsuario": "TesteNome TesteSobrenome",
+              "nota": 5
+            }
+          ]
+        }
+      },
+      {
+        "id": "a5527050-71d8-4e4a-a0f6-1552b49f3b23",
+        "codCliente": "4",
+        "experiencia": {
+          "titulo": "texte experiencia 2 linda",
+          "id": "21",
+          "descricao": "2b",
+          "imagem": "1a",
+          "valorCompra": 123.45,
+          "idProprietario": "1",
+          "dataDeInicio": "Sat Oct 22 15:30:45 UTC 2023",
+          "dataDeFim": "Sat Oct 22 15:30:45 UTC 2023",
+          "endereco": {
+            "rua": "Rua teste experiencia linda",
+            "numero": "123",
+            "bairro": "bairro Teste",
+            "cidade": "Cidade teste"
+          },
+          "avaliacao": [
+            {
+              "nota": 1,
+              "nomeUsuario": "Eduarda",
+              "feedBack": "Melhor hospedagem que já fiquei!"
+            },
+            {
+              "nota": 3,
+              "nomeUsuario": "Carlos",
+              "feedBack": "Recomendo a todos."
+            }
+          ],
+          "checkin": null,
+          "checkout": null
+        }
+      },
+      {
+        "id": "7ef4e331-2c8f-45a7-9a4c-f05a16c297f2",
+        "codCliente": "1",
+        "experiencia": {
+          "titulo": "texte experiencia 2 linda",
+          "id": "21",
+          "descricao": "2b",
+          "imagem": "1a",
+          "valorCompra": 123.45,
+          "idProprietario": "1",
+          "dataDeInicio": "Sat Oct 22 15:30:45 UTC 2023",
+          "dataDeFim": "Sat Oct 22 15:30:45 UTC 2023",
+          "endereco": {
+            "rua": "Rua teste experiencia linda",
+            "numero": "123",
+            "bairro": "bairro Teste",
+            "cidade": "Cidade teste"
+          },
+          "avaliacao": [
+            {
+              "nota": 1,
+              "nomeUsuario": "Eduarda",
+              "feedBack": "Melhor hospedagem que já fiquei!"
+            },
+            {
+              "nota": 3,
+              "nomeUsuario": "Carlos",
+              "feedBack": "Recomendo a todos."
+            },
+            {
+              "feedBack": "",
+              "nomeUsuario": "lara linda Pereira",
+              "nota": 5
+            }
+          ],
+          "checkin": null,
+          "checkout": null
+        }
+      },
+      {
+        "id": "bfde6ae0-63ba-46f1-86e2-6ee17a200ca0",
+        "codCliente": "1",
+        "experiencia": {
+          "titulo": "teste experiencia 1",
+          "id": "31",
+          "descricao": "2b",
+          "imagem": "1a",
+          "valorCompra": 123.45,
+          "idProprietario": "112",
+          "dataDeInicio": "Sat Oct 22 15:30:45 UTC 2023",
+          "dataDeFim": "Sat Oct 22 15:30:45 UTC 2023",
+          "endereco": {
+            "rua": "Rua teste",
+            "numero": "123",
+            "bairro": "bairro Teste",
+            "cidade": "Cidade teste"
+          },
+          "avaliacao": [
+            {
+              "nota": 1,
+              "nomeUsuario": "Eduarda",
+              "feedBack": "Melhor hospedagem que já fiquei!"
+            },
+            {
+              "nota": 1,
+              "nomeUsuario": "Carlos",
+              "feedBack": "Recomendo a todos."
+            },
+            {
+              "feedBack": "",
+              "nomeUsuario": "TesteNome TesteSobrenome",
+              "nota": 5
+            },
+            {
+              "feedBack": "ruim",
+              "nomeUsuario": "lara",
+              "nota": 1
+            },
+            {
+              "feedBack": "ruim",
+              "nomeUsuario": "lara linda Pereira",
+              "nota": 1
+            }
+          ]
+        }
+      }
+    ],
+    "hospedagens": [
+      {
+        "titulo": "Hospedagem do Nascer do SOL",
+        "id": "10",
+        "descricao": "Imagine-se em uma deslumbrante casa à beira-mar, onde o som das ondas quebrando suavemente na praia é a trilha sonora da sua vida. Esta casa de praia é verdadeiramente um refúgio paradisíaco, cercada pela beleza da natureza. Com vista panorâmica para o oceano, esta casa oferece um retiro tranquilo, onde o nascer do sol pinta o céu de tons dourados todas as manhãs. Você acorda com o suave toque da brisa do mar e a visão de um horizonte interminável de água azul.",
+        "imagem": "1a",
+        "valorPorDiaria": 123.45,
+        "qtdQuarto": 1,
+        "capacidadeMaxPessoas": 4,
+        "qtdBanheiro": 1,
+        "idProprietario": 2,
+        "checkin": "Sat Oct 22 15:30:45 UTC 2023",
+        "checkout": "Sat Oct 22 15:30:45 UTC 2023",
+        "area": 22.34,
+        "endereco": {
+          "rua": "Rua teste",
+          "numero": "123",
+          "bairro": "bairro Teste",
+          "cidade": "Cidade teste"
+        },
+        "avaliacao": [
+          {
+            "nomeUsuario": "João",
+            "nota": 5
+          },
+          {
+            "nomeUsuario": "Maria",
+            "nota": 3,
+            "feedBack": "Excelente serviço e localização."
+          },
+          {
+            "feedBack": "s",
+            "nomeUsuario": "TesteNome TesteSobrenome",
+            "nota": 1
+          }
+        ]
+      },
+      {
+        "id": "16dca107-748d-4765-af08-213e5254d482",
+        "codCliente": "4",
+        "hospedagem": {
+          "titulo": "Hospedagem do Nascer do SOL",
+          "id": "10",
+          "descricao": "Imagine-se em uma deslumbrante casa à beira-mar, onde o som das ondas quebrando suavemente na praia é a trilha sonora da sua vida. Esta casa de praia é verdadeiramente um refúgio paradisíaco, cercada pela beleza da natureza. Com vista panorâmica para o oceano, esta casa oferece um retiro tranquilo, onde o nascer do sol pinta o céu de tons dourados todas as manhãs. Você acorda com o suave toque da brisa do mar e a visão de um horizonte interminável de água azul.",
+          "imagem": "1a",
+          "valorPorDiaria": 123.45,
+          "qtdQuarto": 1,
+          "capacidadeMaxPessoas": 4,
+          "qtdBanheiro": 1,
+          "idProprietario": 2,
+          "checkin": "Sat Oct 22 15:30:45 UTC 2023",
+          "checkout": "Sat Oct 22 15:30:45 UTC 2023",
+          "area": 22.34,
+          "endereco": {
+            "rua": "Rua teste",
+            "numero": "123",
+            "bairro": "bairro Teste",
+            "cidade": "Cidade teste"
+          },
+          "avaliacao": [
+            {
+              "nomeUsuario": "João",
+              "nota": 5
+            },
+            {
+              "nomeUsuario": "Maria",
+              "nota": 3,
+              "feedBack": "Excelente serviço e localização."
+            },
+            {
+              "feedBack": "s",
+              "nomeUsuario": "TesteNome TesteSobrenome",
+              "nota": 1
+            }
+          ]
+        }
+      },
+      {
+        "id": "9adae9fe-a10e-4373-b10b-cdc1581d2c3b",
+        "codCliente": "4",
+        "hospedagem": {
+          "titulo": "hospedagem fonte de Cachoeira",
+          "id": "15",
+          "descricao": "2b",
+          "imagem": "1a",
+          "valorPorDiaria": 123.45,
+          "qtdQuarto": 1,
+          "capacidadeMaxPessoas": 4,
+          "qtdBanheiro": 1,
+          "idProprietario": 1,
+          "checkin": "Sat Oct 22 15:30:45 UTC 2023",
+          "checkout": "Sat Oct 22 15:30:45 UTC 2023",
+          "area": 22.34,
+          "endereco": {
+            "rua": "Rua teste",
+            "numero": "123",
+            "bairro": "bairro Teste",
+            "cidade": "Cidade teste"
+          },
+          "avaliacao": []
+        }
+      },
+      {
+        "id": "78545fd7-9778-4827-a7d5-28d2bd5935a1",
+        "codCliente": "1",
+        "hospedagem": {
+          "titulo": "Acampamento sonho de verao",
+          "descricao": "muito legal",
+          "checkin": "2023-10-26T03:00:00.000Z",
+          "checkout": "2023-10-26T04:00:00.000Z",
+          "Telefone": "234t5yt",
+          "valorPorDiaria": 123,
+          "area": "12",
+          "qtQuartos": 2,
+          "capacidadeMaxPessoas": 4,
+          "qtdBanheiro": 2,
+          "endereco": {
+            "rua": "esrd",
+            "numero": 1,
+            "bairro": "asdsf",
+            "cidade": "asdf"
+          },
+          "idProprietario": "6",
+          "id": "4dBmYIs"
+        }
+      }
+    ]
+  },
+  "minhasVendas": {
+    "experiencias": [],
+    "hospedagens": []
+  },
+  "experiencias": [
+    {
+      "titulo": "teste experiencia 1",
+      "id": "31",
+      "descricao": "2b",
+      "imagem": "1a",
+      "valorCompra": 123.45,
+      "idProprietario": "112",
+      "dataDeInicio": "Sat Oct 22 15:30:45 UTC 2023",
+      "dataDeFim": "Sat Oct 22 15:30:45 UTC 2023",
+      "endereco": {
+        "rua": "Rua teste",
+        "numero": "123",
+        "bairro": "bairro Teste",
+        "cidade": "Cidade teste"
+      },
+      "avaliacao": [
+        {
+          "nota": 1,
+          "nomeUsuario": "Eduarda",
+          "feedBack": "Melhor hospedagem que já fiquei!"
+        },
+        {
+          "nota": 1,
+          "nomeUsuario": "Carlos",
+          "feedBack": "Recomendo a todos."
+        },
+        {
+          "feedBack": "",
+          "nomeUsuario": "TesteNome TesteSobrenome",
+          "nota": 5
+        },
+        {
+          "feedBack": "ruim",
+          "nomeUsuario": "lara",
+          "nota": 1
+        },
+        {
+          "feedBack": "ruim",
+          "nomeUsuario": "lara linda Pereira",
+          "nota": 1
+        },
+        {
+          "feedBack": "",
+          "nomeUsuario": "Lara Lima",
+          "nota": 5
+        }
+      ]
+    },
+    {
+      "titulo": "texte experiencia 2 linda",
+      "id": "21",
+      "descricao": "2b",
+      "imagem": "1a",
+      "valorCompra": 123.45,
+      "idProprietario": "1",
+      "dataDeInicio": "Sat Oct 22 15:30:45 UTC 2023",
+      "dataDeFim": "Sat Oct 22 15:30:45 UTC 2023",
+      "endereco": {
+        "rua": "Rua teste experiencia linda",
+        "numero": "123",
+        "bairro": "bairro Teste",
+        "cidade": "Cidade teste"
+      },
+      "avaliacao": [
+        {
+          "nota": 1,
+          "nomeUsuario": "Eduarda",
+          "feedBack": "Melhor hospedagem que já fiquei!"
+        },
+        {
+          "nota": 3,
+          "nomeUsuario": "Carlos",
+          "feedBack": "Recomendo a todos."
+        },
+        {
+          "feedBack": "",
+          "nomeUsuario": "lara linda Pereira",
+          "nota": 5
+        },
+        {
+          "feedBack": "ruim",
+          "nomeUsuario": "Lara Lima",
+          "nota": 1
+        }
+      ],
+      "checkin": null,
+      "checkout": null
+    }
+  ],
+  "hospedagem": [
+    {
+      "titulo": "Hospedagem do Nascer do SOL",
+      "id": "10",
+      "descricao": "Imagine-se em uma deslumbrante casa à beira-mar, onde o som das ondas quebrando suavemente na praia é a trilha sonora da sua vida. Esta casa de praia é verdadeiramente um refúgio paradisíaco, cercada pela beleza da natureza. Com vista panorâmica para o oceano, esta casa oferece um retiro tranquilo, onde o nascer do sol pinta o céu de tons dourados todas as manhãs. Você acorda com o suave toque da brisa do mar e a visão de um horizonte interminável de água azul.",
+      "imagem": "1a",
+      "valorPorDiaria": 123.45,
+      "qtdQuarto": 1,
+      "capacidadeMaxPessoas": 4,
+      "qtdBanheiro": 1,
+      "idProprietario": 2,
+      "checkin": "Sat Oct 22 15:30:45 UTC 2023",
+      "checkout": "Sat Oct 22 15:30:45 UTC 2023",
+      "area": 22.34,
+      "endereco": {
+        "rua": "Rua teste",
+        "numero": "123",
+        "bairro": "bairro Teste",
+        "cidade": "Cidade teste"
+      },
+      "avaliacao": [
+        {
+          "nomeUsuario": "João",
+          "nota": 5
+        },
+        {
+          "nomeUsuario": "Maria",
+          "nota": 3,
+          "feedBack": "Excelente serviço e localização."
+        },
+        {
+          "feedBack": "s",
+          "nomeUsuario": "TesteNome TesteSobrenome",
+          "nota": 1
+        }
+      ]
+    },
+    {
+      "titulo": "hospedagem fonte de Cachoeira",
+      "id": "15",
+      "descricao": "2b",
+      "imagem": "1a",
+      "valorPorDiaria": 123.45,
+      "qtdQuarto": 1,
+      "capacidadeMaxPessoas": 4,
+      "qtdBanheiro": 1,
+      "idProprietario": 1,
+      "checkin": "Sat Oct 22 15:30:45 UTC 2023",
+      "checkout": "Sat Oct 22 15:30:45 UTC 2023",
+      "area": 22.34,
+      "endereco": {
+        "rua": "Rua teste",
+        "numero": "123",
+        "bairro": "bairro Teste",
+        "cidade": "Cidade teste"
+      },
+      "avaliacao": []
+    },
+    {
+      "titulo": "Acampamento sonho de verao",
+      "descricao": "muito legal",
+      "checkin": "2023-10-26T03:00:00.000Z",
+      "checkout": "2023-10-26T04:00:00.000Z",
+      "Telefone": "234t5yt",
+      "valorPorDiaria": 123,
+      "area": "12",
+      "qtQuartos": 2,
+      "capacidadeMaxPessoas": 4,
+      "qtdBanheiro": 2,
+      "endereco": {
+        "rua": "esrd",
+        "numero": 1,
+        "bairro": "asdsf",
+        "cidade": "asdf"
+      },
+      "idProprietario": "6",
+      "id": "4dBmYIs"
+    }
+  ],
+  "coupon": [
+    {
+      "id": "123",
+      "idUser": 4,
+      "titulo": "12 de junho",
+      "codDoCupom": "ABC123",
+      "disponivel": false,
+      "ePrivado": false,
+      "dataExpiracao": "2021-10-10",
+      "categoria": 3,
+      "desconto": 0.5
+    },
+    {
+      "id": "456",
+      "idUser": 1,
+      "titulo": "Carnaval",
+      "codDoCupom": "asd",
+      "disponivel": false,
+      "ePrivado": false,
+      "dataExpiracao": "2021-10-10",
+      "categoria": 3,
+      "desconto": 0.25
+    },
+    {
+      "id": "789",
+      "idUser": 1,
+      "titulo": "Dia da Mulher",
+      "codDoCupom": "dfffihi",
+      "disponivel": false,
+      "ePrivado": false,
+      "dataExpiracao": "2021-10-10",
+      "categoria": 3,
+      "desconto": 0.25
+    },
+    {
+      "id": "1011",
+      "idUser": 2,
+      "titulo": "Mais de 10 vendas",
+      "codDoCupom": "Hje123",
+      "disponivel": true,
+      "ePrivado": true,
+      " dataExpiracao": "2021-10-10",
+      "categoria": 1,
+      "desconto": 0.5
+    },
+    {
+      "id": "1223",
+      "idUser": 3,
+      "titulo": "Mais de 10 compras",
+      "codDoCupom": "ki0okj",
+      "ePrivado": true,
+      "disponivel": false,
+      "dataExpiracao": "2021-10-10",
+      "categoria": 2,
+      "desconto": 0.7
+    }
+  ]
+}

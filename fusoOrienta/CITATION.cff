@@ -1,0 +1,33 @@
+cff-version: 1.0.1
+message: Please cite this software using these metadata.
+title: Fus0rienta
+authors:
+  - family-names: Renttins Vasconcelos de Souza
+    given-names: Bernado Elias
+  - family-names: Aquino Campelo
+    given-names: João Augusto
+  - family-names: Parreiras Guimarães da Cunha
+    given-names: Juliana 
+  - family-names: Lima Pereira
+    given-names: Lara
+  - family-names: Marques de Oliveira
+    given-names: Pedro Henrique 
+  - family-names: Garcia Ribas 
+    given-names: Rodrigo
+  - family-names: Silva Tavares 
+    given-names: Cleiton
+    name-suffix: Professor
+    affiliation: PUC Minas 
+ - family-names: Nicolini Silva
+    given-names: Thiago Augusto
+    name-suffix: Professor
+    affiliation: PUC Minas
+
+keywords:
+  - fuso horário
+  - conversor de moedas
+  - marcador de reuniões
+repository-code: 
+license: CC-BY-4.0
+version: 1.0.0
+date-released: 2022-07-14

@@ -1,0 +1,19 @@
+.containerMeetings {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  gap: 16px;
+  align-items: center;
+  overflow: auto;
+}
+
+.times-meetings {
+  display: flex;
+  flex-direction: column;
+  gap: 24px;
+}
+
+.meetingToday {
+  box-shadow: 0px 6px 30px rgba(0, 0, 0, 0.06);
+  padding: 16px;
+}

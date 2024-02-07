@@ -1,0 +1,257 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-9ndCyUaIbzAi2FUVXJi0CjmCapSmO7SnpJef0486qhLnuZ2cdeRhO02iuK6FUUVM"
+      crossorigin="anonymous"
+    />
+
+    <link rel="stylesheet" href="../../css/style.css" />
+
+    <link rel="stylesheet" href="./profile.css" />
+
+    <link rel="icon" href="../../img/logo.png" type="image/x-icon" />
+
+    <title>Fus0rienta</title>
+  </head>
+
+  <body data-bs-spy="scroll" data-bs-target=".navbar" data-bs-offset="70">
+    <div class="top-nav" id="home">
+      <div class="container">
+        <div class="row justify-content-between">
+          <div class="col-auto">
+            <p><i class="bx bxs-envelope"></i> fusoOrientaOficial@fusoO.com</p>
+            <p><i class="bx bxs-phone-call"></i> (+55) 31 800-120-232</p>
+          </div>
+          <div class="col-auto social-icons">
+            <a href="#"><i class="bi bi-facebook"></i></a>
+            <a href="#"><i class="bi bi-instagram"></i></a>
+            <a href="#"><i class="bi bi-tiktok"></i></a>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <nav class="navbar navbar-expand-lg navbar-light bg-white sticky-top">
+      <div class="container">
+        <img src="../../img/logo.png" alt="" style="width: 4rem" />
+
+        <button
+          class="navbar-toggler"
+          type="button"
+          data-bs-toggle="collapse"
+          data-bs-target="#navbarNav"
+          aria-controls="navbarNav"
+          aria-expanded="false"
+          aria-label="Toggle navigation"
+        >
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarNav">
+          <ul class="navbar-nav ms-auto">
+            <li class="nav-item">
+              <a class="nav-link" href="#profile">Perfil</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="../team/team.html">Equipes</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="../meeting/meeting.html">Reuniões</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="../people-connections/connections.html"
+                >Conexões</a
+              >
+            </li>
+          </ul>
+          <a
+            href="#"
+            data-bs-toggle="modal"
+            data-bs-target="#exampleModal"
+            class="btn btn-brand ms-lg-3"
+            id="log-out"
+            >Sair <i class="bi bi-box-arrow-right"></i
+          ></a>
+        </div>
+      </div>
+    </nav>
+
+    <section id="profile" class="text-center p-4">
+      <div class="container">
+        <div class="row">
+          <div class="col-12">
+            <div class="intro">
+              <h6>Acredite em si mesmo e no poder da sua determinação.</h6>
+              <h1>Perfil</h1>
+            </div>
+          </div>
+        </div>
+        <div class="row g-4">
+          <div class="profile p-4">
+            <form id="form-edit-profile" class="row g-3">
+              <img
+                name="image"
+                src="../../img/teste.png"
+                alt=""
+                class="profile-img"
+                id="profile-img"
+              />
+              <div class="d-flex justify-content-end pb-4">
+                <button type="submit" class="btn btn-brand ms-3 btn-login-home">
+                  Salvar
+                </button>
+              </div>
+              <div class="col-lg-6">
+                <label for="name" class="form-label">Nome Completo </label>
+                <input
+                  type="text"
+                  class="form-control"
+                  id="user-name"
+                  name="name"
+                  aria-describedby="user-name"
+                />
+              </div>
+
+              <div class="col-lg-6">
+                <label for="userName" class="form-label">País </label>
+                <select class="form-select" id="country-select" name="country">
+                  <option selected>Selecionar</option>
+                </select>
+              </div>
+
+              <div class="col-12">
+                <label for="userName" class="form-label">E-mail</label>
+                <input
+                  type="email"
+                  class="form-control"
+                  placeholder="Johndoe@example.com"
+                  id="email"
+                  name="email"
+                  aria-describedby="emailHelp"
+                />
+              </div>
+
+              <div class="col-12">
+                <label class="form-label">Senha</label>
+                <input
+                  type="password"
+                  class="form-control align-text-bottom"
+                  placeholder="suaSenha"
+                  id="password"
+                  name="password"
+                  aria-describedby="passwordlogin"
+                />
+              </div>
+
+              <div class="col-12">
+                <label class="form-label">Horário de Almoço</label>
+                <div class="d-flex justify-content-between gap-3">
+                  <input
+                    type="time"
+                    class="form-control align-text-bottom"
+                    placeholder="suaSenha"
+                    id="lunchTimeStart"
+                    name="lunchTimeStart"
+                    aria-describedby="passwordlogin"
+                  />
+
+                  <input
+                    type="time"
+                    class="form-control"
+                    placeholder="suaSenha"
+                    id="lunchTimeEnd"
+                    name="lunchTimeEnd"
+                    aria-describedby="passwordlogin"
+                  />
+                </div>
+              </div>
+
+              <div class="col-12">
+                <label class="form-label">Jornada de trabalho</label>
+                <div class="d-flex justify-content-between gap-3">
+                  <input
+                    type="time"
+                    class="form-control align-text-bottom"
+                    placeholder="suaSenha"
+                    id="officeHourStart"
+                    name="officeHourStart"
+                    aria-describedby="passwordlogin"
+                  />
+
+                  <input
+                    type="time"
+                    class="form-control"
+                    placeholder="suaSenha"
+                    id="officeHourEnd"
+                    name="officeHourEnd"
+                    aria-describedby="passwordlogin"
+                  />
+                </div>
+              </div>
+            </form>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <footer>
+      <div class="footer-top text-center">
+        <div class="container">
+          <div class="row justify-content-center">
+            <div class="col-lg-6 text-center">
+              <p>
+                Acreditamos no potencial das pessoas e estamos comprometidos em
+                oferecer soluções que impulsionam o sucesso dos negócios. Nos
+                siga em nossas redes sociais!
+              </p>
+              <div class="col-auto social-icons">
+                <a href="#"><i class="bi bi-facebook"></i></a>
+                <a href="#"><i class="bi bi-instagram"></i></a>
+                <a href="#"><i class="bi bi-tiktok"></i></a>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="footer-bottom text-center">
+        <p class="mb-0">Copyright@2023. Todos os direitos reservados</p>
+      </div>
+    </footer>
+
+    <div class="toast-container position-fixed bottom-0 end-0 p-3">
+      <div
+        id="liveToast"
+        class="toast"
+        role="alert"
+        aria-live="assertive"
+        aria-atomic="true"
+      >
+        <div class="toast-header">
+          <strong class="me-auto">Atenção</strong>
+          <button
+            type="button"
+            class="btn-close"
+            data-bs-dismiss="toast"
+            aria-label="Close"
+          ></button>
+        </div>
+        <div class="toast-body bg-success text-white">
+          Perfil atualizado com sucesso.
+        </div>
+      </div>
+    </div>
+
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-geWF76RCwLtnZ8qwWowPQNguL3RmwHVBC9FhGdlKrxdiJJigb/j/68SIy3Te4Bkz"
+      crossorigin="anonymous"
+    ></script>
+
+    <script src="./profile.js" type="module"></script>
+  </body>
+</html>

@@ -1,0 +1,507 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-9ndCyUaIbzAi2FUVXJi0CjmCapSmO7SnpJef0486qhLnuZ2cdeRhO02iuK6FUUVM"
+      crossorigin="anonymous"
+    />
+    <link rel="stylesheet" href="css/style.css" />
+
+    <link rel="stylesheet" href="css/home.css" />
+
+    <link rel="icon" href="./img/logo.png" type="image/x-icon" />
+
+    <title>Fus0rienta</title>
+  </head>
+
+  <body data-bs-spy="scroll" data-bs-target=".navbar" data-bs-offset="70">
+    <div class="top-nav" id="home">
+      <div class="container">
+        <div class="row justify-content-between">
+          <div class="col-auto">
+            <p><i class="bx bxs-envelope"></i> fusoOrientaOficial@fusoO.com</p>
+            <p><i class="bx bxs-phone-call"></i> (+55) 31 800-120-232</p>
+          </div>
+          <div class="col-auto social-icons">
+            <a href="#"><i class="bi bi-facebook"></i></a>
+            <a href="#"><i class="bi bi-instagram"></i></a>
+            <a href="#"><i class="bi bi-tiktok"></i></a>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <nav class="navbar navbar-expand-lg navbar-light bg-white sticky-top">
+      <div class="container">
+        <img src="./img/logo.png" alt="" style="width: 4rem" />
+        <button
+          class="navbar-toggler"
+          type="button"
+          data-bs-toggle="collapse"
+          data-bs-target="#navbarNav"
+          aria-controls="navbarNav"
+          aria-expanded="false"
+          aria-label="Toggle navigation"
+        >
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarNav">
+          <ul class="navbar-nav ms-auto">
+            <li class="nav-item">
+              <a class="nav-link" href="#home">Home</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#about">Sobre</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#reviews">Avaliações</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#team">Colaboradores</a>
+            </li>
+          </ul>
+          <button
+            data-bs-toggle="modal"
+            data-bs-target="#modal-login"
+            class="btn btn-brand"
+            id="btn-login-home"
+          >
+            Entrar <i class="bi bi-box-arrow-in-right"></i>
+          </button>
+        </div>
+      </div>
+    </nav>
+
+    <div class="parte-inicial parte-inicial1 mt-1">
+      <div class="content-initial">
+        <div class="content-initial-text">
+          <h6 class="text-white text-uppercase">
+            Otimize os horários das suas reuniões
+          </h6>
+          <h1 class="display-3 text-center">
+            Descubra o poder de um sistema inteligente
+          </h1>
+          <div class="d-flex gap-4 justify-content-center">
+            <button
+              data-bs-toggle="modal"
+              data-bs-target="#modal-register"
+              class="btn btn-outline-light"
+              id="btn-register-home"
+            >
+              Cadastre-se
+            </button>
+            <button
+              data-bs-toggle="modal"
+              data-bs-target="#modal-login"
+              class="btn btn-brand"
+              id="btn-login-home"
+            >
+              Entrar <i class="bi bi-box-arrow-in-right"></i>
+            </button>
+          </div>
+        </div>
+        <div class="w-50 d-flex align-items-center">
+          <img src="img/register-user.png" alt="" />
+        </div>
+      </div>
+    </div>
+
+    <section id="about">
+      <div class="container">
+        <div class="row justify-content-center">
+          <div class="col-lg-5">
+            <div class="row">
+              <div class="col-12">
+                <div class="info-box">
+                  <img src="img/12.png" alt="" />
+                  <div class="">
+                    <h5>Sobre nós</h5>
+                    <p>
+                      Somos uma startup fundada em fevereiro deste ano. Nossa
+                      motivação vem pela paixão por tecnologia e pela vontade de
+                      fazer a diferença.
+                    </p>
+                  </div>
+                </div>
+              </div>
+              <div class="col-12 mt-4">
+                <div class="info-box">
+                  <img src="img/13.png" alt="" />
+                  <div class="">
+                    <h5>Objetivo</h5>
+                    <p>
+                      Nosso objetivo é fornecer horários de reuniões adequados e
+                      favoráveis aos times de empresas multi-nacionais.
+                    </p>
+                  </div>
+                </div>
+              </div>
+              <div class="col-12 mt-4">
+                <div class="info-box">
+                  <img src="img/14.png" alt="" />
+                  <div class="">
+                    <h5>O maior bem da empresa: o funcionário</h5>
+                    <p>
+                      Acreditamos firmemente que a felicidade dos funcionários é
+                      um fator crucial para o sucesso de uma empresa. Nossa
+                      visão é criar um ambiente de trabalho onde os
+                      colaboradores se sintam valorizados, motivados e felizes.
+                    </p>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="col-lg-5">
+            <img src="img/home-about.png" alt="" />
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section id="reviews">
+      <div
+        class="owl-theme owl-carousel reviews-parte-inicialr container w-100 d-flex justify-content-center gap-2"
+      >
+        <div class="review">
+          <div class="person">
+            <img src="img/16.png" alt="" />
+            <h5>Alice Smith</h5>
+            <small>Gerente da TechGear Inc</small>
+          </div>
+          <h6>
+            Investir nesse novo sistema foi uma decisão acertada. Estou
+            extremamente satisfeito com os resultados que obtivemos.
+          </h6>
+        </div>
+
+        <div class="review">
+          <div class="person">
+            <img src="img/15.png" alt="" />
+            <h5>Emily Chen</h5>
+            <small>CEO da Lumi Solutions</small>
+          </div>
+          <h6>
+            Estou muito satisfeito com o sistema que implementamos na nossa
+            empresa. Ele trouxe uma série de benefícios para a nossa equipe e
+            para as operações do dia a dia.
+          </h6>
+        </div>
+
+        <div class="review">
+          <div class="person">
+            <img src="img/17.png" alt="" />
+            <h5>John Doe</h5>
+            <small>Desenvolvedor da HealthPlus Tech</small>
+          </div>
+          <h6>
+            Antes, eu precisava lidar com muitos processos manuais e
+            repetitivos, o que consumia muito tempo.
+          </h6>
+        </div>
+      </div>
+    </section>
+
+    <section id="team">
+      <div class="container">
+        <div class="row">
+          <div class="col-12">
+            <div class="intro">
+              <h6>COLABORADORES</h6>
+              <h1>Membros da Equipe</h1>
+              <p class="mx-auto">
+                Nosso time de colaboradores é formado por profissionais
+                talentosos e engajados, prontos para enfrentar desafios e
+                impulsionar o crescimento da empresa.
+              </p>
+            </div>
+          </div>
+        </div>
+        <div class="row justify-content-center">
+          <div class="team-member w-50">
+            <div class="image">
+              <img src="./img/fundadores.png" alt="" />
+              <div class="social-icons" style="color: aliceblue">
+                <p>Bernardo E. R. V de Sousa</p>
+                <p>João Augusto A. Campelo</p>
+                <p>Juliana P. G. da Cunha</p>
+                <p>Lara L. Pereira</p>
+                <p>Pedro Henrique M. de Oliveira</p>
+                <p>Rodrigo G. Ribas</p>
+              </div>
+              <div class="overlay"></div>
+            </div>
+
+            <h5>Alunos do Primeiro Período</h5>
+            <p>Curso Engenharia de Software</p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <footer>
+      <div class="footer-top text-center">
+        <div class="container">
+          <div class="row justify-content-center">
+            <div class="col-lg-6 text-center">
+              <p>
+                Acreditamos no potencial das pessoas e estamos comprometidos em
+                oferecer soluções que impulsionam o sucesso dos negócios. Nos
+                siga em nossas redes sociais!
+              </p>
+              <div class="col-auto social-icons">
+                <a href="#"><i class="bi bi-facebook"></i></a>
+                <a href="#"><i class="bi bi-instagram"></i></a>
+                <a href="#"><i class="bi bi-tiktok"></i></a>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="footer-bottom text-center">
+        <p class="mb-0">Copyright@2023. Todos os direitos reservados</p>
+      </div>
+    </footer>
+
+    <div
+      class="modal fade"
+      id="modal-login"
+      tabindex="-1"
+      aria-labelledby="modal-login-Label"
+      aria-hidden="true"
+    >
+      <div class="modal-dialog modal-dialog-centered modal-xl">
+        <div class="modal-content">
+          <div class="modal-body p-0">
+            <div class="container-fluid">
+              <div id="login-content" class="gap-2 align-items-center py-4">
+                <div class="bg-cover w-50">
+                  <img src="img/login.png" alt="login" />
+                </div>
+
+                <form id="form-login" class="w-50">
+                  <div>
+                    <h1>Entrar</h1>
+                  </div>
+
+                  <div class="col-12">
+                    <label for="userName" class="form-label">E-mail</label>
+                    <input
+                      type="email"
+                      class="form-control"
+                      placeholder="meuemail@exemplo.com"
+                      id="email-login"
+                      aria-describedby="emailHelp"
+                    />
+                  </div>
+
+                  <div class="col-12">
+                    <label for="password" class="form-label">Senha</label>
+                    <input
+                      type="password"
+                      class="form-control"
+                      placeholder="minha senha"
+                      id="password"
+                      aria-describedby="passwordlogin"
+                    />
+                  </div>
+
+                  <div class="content-buttons">
+                    <div>
+                      <p class="m-0">Não tem conta?</p>
+                      <button
+                        type="button"
+                        class="btn btn-outline-primary w-100"
+                        id="btn-register-modal-change-content"
+                        data-bs-toggle="modal"
+                        data-bs-target="#modal-register"
+                      >
+                        Cadastre-se
+                      </button>
+                    </div>
+                    <div class="d-flex align-items-end">
+                      <button
+                        type="submit"
+                        class="btn btn-brand w-100"
+                        id="btn-login-modal"
+                      >
+                        Entrar <i class="bi bi-box-arrow-in-right"></i>
+                      </button>
+                    </div>
+                  </div>
+                </form>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <div
+      class="modal fade"
+      id="modal-register"
+      tabindex="-1"
+      aria-labelledby="modal-register-Label"
+      aria-hidden="true"
+    >
+      <div class="modal-dialog modal-dialog-centered modal-xl">
+        <div class="modal-content">
+          <div class="modal-body p-0">
+            <div class="container-fluid">
+              <div id="register-content">
+                <form
+                  id="register-user"
+                  class="p-lg-5 row g-3 p-2"
+                  needs-validation
+                >
+                  <div>
+                    <h1>Cadastre-se</h1>
+                  </div>
+
+                  <div class="col-lg-6">
+                    <label for="userName" class="form-label"
+                      >Nome Completo
+                    </label>
+                    <input
+                      type="text"
+                      class="form-control"
+                      placeholder="Meu Nome"
+                      id="name"
+                      aria-describedby="emailHelp"
+                      name="name"
+                      required
+                    />
+                  </div>
+
+                  <div class="col-lg-6">
+                    <label for="userName" class="form-label">País </label>
+                    <select
+                      class="form-select"
+                      id="country-select"
+                      name="country"
+                      required
+                    >
+                      <option selected>Selecionar</option>
+                    </select>
+                  </div>
+
+                  <div class="col-12">
+                    <label for="userName" class="form-label">E-mail</label>
+                    <input
+                      type="email"
+                      class="form-control"
+                      placeholder="meuemail@example.com"
+                      id="email"
+                      name="email"
+                      aria-describedby="emailHelp"
+                      required
+                    />
+                  </div>
+
+                  <div class="col-12">
+                    <label for="password" class="form-label">Senha</label>
+                    <input
+                      type="password"
+                      name="password"
+                      class="form-control align-text-bottom"
+                      placeholder="minha senha"
+                      aria-describedby="passwordlogin"
+                      required
+                    />
+                  </div>
+
+                  <div class="col-12">
+                    <label for="password" class="form-label"
+                      >Horário de Almoço</label
+                    >
+                    <div class="d-flex justify-content-between gap-3">
+                      <input
+                        type="time"
+                        class="form-control align-text-bottom"
+                        id="time"
+                        name="lunchTimeStart"
+                        aria-describedby="passwordlogin"
+                        required
+                      />
+
+                      <input
+                        type="time"
+                        class="form-control"
+                        placeholder="suaSenha"
+                        name="lunchTimeEnd"
+                        aria-describedby="passwordlogin"
+                        required
+                      />
+                    </div>
+                  </div>
+
+                  <div class="col-12">
+                    <label for="password" class="form-label"
+                      >Jornada de trabalho</label
+                    >
+                    <div class="d-flex justify-content-between gap-3">
+                      <input
+                        type="time"
+                        class="form-control align-text-bottom"
+                        name="officeHourStart"
+                        required
+                      />
+
+                      <input
+                        type="time"
+                        class="form-control"
+                        name="officeHourEnd"
+                        required
+                      />
+                    </div>
+                  </div>
+
+                  <div
+                    class="col-12 d-flex justify-content-between align-items-end"
+                  >
+                    <div>
+                      <p class="m-0">Já tem conta?</p>
+                      <button
+                        type="button"
+                        class="btn btn-outline-primary"
+                        id="btn-login-modal-change-content"
+                        data-bs-toggle="modal"
+                        data-bs-target="#modal-login"
+                      >
+                        Entrar <i class="bi bi-box-arrow-in-right"></i>
+                      </button>
+                    </div>
+                    <div>
+                      <button
+                        type="submit"
+                        class="btn btn-brand"
+                        id="btn-register-modal"
+                      >
+                        Cadastre-se
+                      </button>
+                    </div>
+                  </div>
+                </form>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-geWF76RCwLtnZ8qwWowPQNguL3RmwHVBC9FhGdlKrxdiJJigb/j/68SIy3Te4Bkz"
+      crossorigin="anonymous"
+    ></script>
+
+    <script src="./login.js" type="module"></script>
+
+    <script src="./register-user.js" type="module"></script>
+  </body>
+</html>

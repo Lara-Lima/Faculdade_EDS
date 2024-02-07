@@ -1,0 +1,352 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-9ndCyUaIbzAi2FUVXJi0CjmCapSmO7SnpJef0486qhLnuZ2cdeRhO02iuK6FUUVM"
+      crossorigin="anonymous"
+    />
+    <link rel="stylesheet" href="../../css/style.css" />
+
+    <link rel="stylesheet" href="./team.css" />
+
+    <link rel="icon" href="../../img/logo.png" type="image/x-icon" />
+
+    <title>Fus0rienta</title>
+  </head>
+
+  <body data-bs-spy="scroll" data-bs-target=".navbar" data-bs-offset="70">
+    <div class="top-nav" id="home">
+      <div class="container">
+        <div class="row justify-content-between">
+          <div class="col-auto">
+            <p><i class="bx bxs-envelope"></i> fusoOrientaOficial@fusoO.com</p>
+            <p><i class="bx bxs-phone-call"></i> (+55) 31 800-120-232</p>
+          </div>
+          <div class="col-auto social-icons">
+            <a href="#"><i class="bi bi-facebook"></i></a>
+            <a href="#"><i class="bi bi-instagram"></i></a>
+            <a href="#"><i class="bi bi-tiktok"></i></a>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <nav class="navbar navbar-expand-lg navbar-light bg-white sticky-top">
+      <div class="container">
+        <img src="../../img/logo.png" alt="" style="width: 4rem" />
+        <button
+          class="navbar-toggler"
+          type="button"
+          data-bs-toggle="collapse"
+          data-bs-target="#navbarNav"
+          aria-controls="navbarNav"
+          aria-expanded="false"
+          aria-label="Toggle navigation"
+        >
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarNav">
+          <ul class="navbar-nav ms-auto">
+            <li class="nav-item">
+              <a class="nav-link" href="../profile/profile.html">Perfil</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="./team.html">Equipes</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="../meeting/meeting.html">Reuniões</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="../people-connections/connections.html"
+                >Conexões</a
+              >
+            </li>
+          </ul>
+          <a
+            href="#"
+            data-bs-toggle="modal"
+            data-bs-target="#exampleModal"
+            class="btn btn-brand ms-lg-3"
+            id="log-out"
+            >Sair <i class="bi bi-box-arrow-right"></i
+          ></a>
+        </div>
+      </div>
+    </nav>
+
+    <section id="services" class="text-center p-4">
+      <div class="container">
+        <div class="row">
+          <div class="col-12">
+            <div class="intro">
+              <h1 id="title-team-name">Marketing</h1>
+            </div>
+            <div class="content-buttons-modals">
+              <button
+                data-bs-toggle="offcanvas"
+                data-bs-target="#moedas"
+                aria-controls="moedas"
+                class="btn btn-outline-primary btn-register-home"
+              >
+                Ver Moedas
+                <i class="bi bi-currency-dollar"></i>
+              </button>
+              <button
+                data-bs-toggle="modal"
+                data-bs-target="#modal-add-member"
+                class="btn btn-brand btn-login-home"
+              >
+                Adicionar Membros
+                <i class="bi bi-person-add"></i>
+              </button>
+            </div>
+          </div>
+        </div>
+
+        <section id="profile" class="text-center">
+          <h3 class="colorBrand">Reuniões</h3>
+
+          <div class="content-possible-meeting">
+            <div class="container profile">
+              <div class="intro">
+                <h6>Reuniões da Equipe</h6>
+              </div>
+
+              <div class="mx-auto" id="team-meetings-list">
+                Por enquanto não há reuniões nessa equipe, que tal ir ao lado e
+                já deixar agendado?
+              </div>
+            </div>
+            <div class="container profile">
+              <div class="intro">
+                <h6>Agendar reunião</h6>
+                <p>
+                  <i class="bi bi-info-circle"></i>
+                  Cada reunião dura 1 hora.
+                </p>
+                <div id="no-times-found" class="d-none">
+                  Não há horários disponíveis para agendar reunião.
+                </div>
+
+                <p id="buttons-wrapper">
+                  <button
+                    class="btn btn-primary"
+                    type="button"
+                    data-bs-toggle="collapse"
+                    data-bs-target="#melhorHorario"
+                    aria-expanded="false"
+                    aria-controls="collapseExample"
+                  >
+                    Horário excelente
+                  </button>
+                  <button
+                    class="btn btn-primary"
+                    type="button"
+                    data-bs-toggle="collapse"
+                    data-bs-target="#horarioRazoavel"
+                    aria-expanded="false"
+                    aria-controls="collapseExample"
+                  >
+                    Horário razoavel
+                  </button>
+                </p>
+                <div class="collapse" id="melhorHorario">
+                  <div class="card card-body">
+                    Os horários a seguir beneficiam todos do grupo:
+                    <div class="d-flex flex-column" id="list-best-times"></div>
+                  </div>
+                </div>
+                <div class="collapse" id="horarioRazoavel">
+                  <div class="card card-body" id="list-worst-times"></div>
+                </div>
+              </div>
+              <form id="form-register-meeting" class="row p-4">
+                <div class="col-lg-6">
+                  <label for="userName" class="form-label">Dia da Semana</label>
+                  <select
+                    class="form-select"
+                    id="day-week-select"
+                    name="day-of-week"
+                    required
+                  >
+                    <option selected value="" disabled>Selecionar</option>
+                  </select>
+                </div>
+
+                <div class="col-lg-6">
+                  <label for="userName" class="form-label">Horários</label>
+                  <input
+                    type="time"
+                    class="form-control align-text-bottom"
+                    id="times-meeting"
+                    name="times-meeting"
+                    required
+                    step="3600"
+                  />
+                </div>
+                <div class="d-flex justify-content-end py-4">
+                  <button
+                    type="submit"
+                    class="btn btn-brand ms-3 btn-login-home"
+                  >
+                    Agendar Reunião
+                    <i class="bi bi-alarm"></i>
+                  </button>
+                </div>
+              </form>
+            </div>
+          </div>
+        </section>
+
+        <div>
+          <h3 class="colorBrand">Membros da Equipe</h3>
+
+          <div class="content-member" id="team-member-list"></div>
+        </div>
+      </div>
+    </section>
+
+    <footer>
+      <div class="footer-top text-center">
+        <div class="container">
+          <div class="row justify-content-center">
+            <div class="col-lg-6 text-center">
+              <p>
+                Acreditamos no potencial das pessoas e estamos comprometidos em
+                oferecer soluções que impulsionam o sucesso dos negócios. Nos
+                siga em nossas redes sociais!
+              </p>
+              <div class="col-auto social-icons">
+                <a href="#"><i class="bi bi-facebook"></i></a>
+                <a href="#"><i class="bi bi-instagram"></i></a>
+                <a href="#"><i class="bi bi-tiktok"></i></a>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="footer-bottom text-center">
+        <p class="mb-0">Copyright@2023. Todos os direitos reservados</p>
+      </div>
+    </footer>
+
+    <div
+      class="modal fade"
+      id="modal-delete-member-team"
+      tabindex="-1"
+      aria-labelledby="exampleModalLabel"
+      aria-hidden="true"
+    >
+      <div class="modal-dialog modal-dialog-scrollable">
+        <div class="modal-content p-lg-5">
+          <div class="modal-header">
+            <h1 class="modal-title" id="exampleModalLabel">Excluir Membro</h1>
+            <button
+              type="button"
+              class="btn-close"
+              data-bs-dismiss="modal"
+              aria-label="Close"
+            ></button>
+          </div>
+          <div class="modal-body meeting">
+            <h3><strong class="user-nome"></strong></h3>
+            <p>
+              Você tem certeza que deseja excluir o membro da equipe?
+              <strong class="team-name"></strong> ?
+            </p>
+          </div>
+          <div
+            class="col-12 d-flex justify-content-between align-items-end pt-2"
+          >
+            <button
+              type="button"
+              class="btn btn-outline-primary close-modal-delete"
+            >
+              Cancelar
+            </button>
+            <button type="button" class="btn btn-brand btn-delete-member">
+              Excluir
+            </button>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <div
+      class="modal fade"
+      id="modal-add-member"
+      tabindex="-1"
+      aria-labelledby="modal-add-memberslLabel"
+      aria-hidden="true"
+    >
+      <div class="modal-dialog modal-dialog-centered modal-xl">
+        <div class="modal-content">
+          <div class="modal-body p-0">
+            <div class="container-fluid">
+              <div
+                id="login-content"
+                class="d-flex gap-2 align-items-center py-4"
+              >
+                <div class="p-lg-5 row g-3 w-100">
+                  <div>
+                    <h1>Adicionar Membros</h1>
+                  </div>
+
+                  <div
+                    class="content-member content-max-height"
+                    id="content-member-list"
+                  ></div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <div
+      class="offcanvas offcanvas-end"
+      tabindex="-1"
+      id="moedas"
+      aria-labelledby="moedasLabel"
+    >
+      <div class="offcanvas-header">
+        <h5 class="offcanvas-title">Conversão de Moedas</h5>
+
+        <button
+          class="navbar-toggler"
+          type="button"
+          data-bs-toggle="offcanvas"
+          data-bs-target="#moedas"
+          aria-controls="moedas"
+          aria-label="Toggle navigation"
+        >
+          <i class="bi bi-x-lg"></i>
+        </button>
+      </div>
+      <div class="offcanvas-body">
+        <p class="mx-auto">
+          As moedas disponíveis para conversão são as dos participantes da
+          equipe.
+        </p>
+
+        <div class="profile p-4">
+          <form id="currency-form" class="card-body"></form>
+        </div>
+      </div>
+    </div>
+
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-geWF76RCwLtnZ8qwWowPQNguL3RmwHVBC9FhGdlKrxdiJJigb/j/68SIy3Te4Bkz"
+      crossorigin="anonymous"
+    ></script>
+
+    <script src="./internal-team.js" type="module"></script>
+  </body>
+</html>
